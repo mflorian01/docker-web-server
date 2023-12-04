@@ -1,10 +1,5 @@
-#FROM busybox:1.35
-FROM busybox:latest
-
-# Create a non-root user to own the files and run our server
-#RUN adduser -D static
-#USER static
-#WORKDIR /home/static
+#FROM busybox:1.36
+FROM manuel01/dummy-web-server
 
 # Copy the static website
 # Use the .dockerignore file to control what ends up inside the image!
