@@ -9,3 +9,9 @@ Dummy web server for Docker
 
 ### Run a container using the image
 `docker run --name web-server -p 8080:3000 light-web-server`
+
+### Grab the IP of Docker server and and go to a browser:
+`http://DOCKER_IP:8080`
+
+OR using curl:
+`curl http://DOCKER_IP:8080`
